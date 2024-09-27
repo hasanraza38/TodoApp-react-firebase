@@ -1,8 +1,12 @@
 import React from 'react'
+import Nav from '../component/Nav'
 
 function Login() {
   return (
-    <div>Login</div>
+    <>
+    <Nav/>
+    <h1>lOGIn</h1>
+    </>
   )
 }
 

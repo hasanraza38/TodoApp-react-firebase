@@ -7,7 +7,7 @@ import Layout from "./Layout.jsx";
 import Login from "./screens/Login.jsx";
 import Register from "./screens/Register.jsx";
 
-const router = createBrowserRouter({
+const router = createBrowserRouter([{
   path: "/",
   element: <Layout />,
   children: [
@@ -24,8 +24,10 @@ const router = createBrowserRouter({
       element: <Register />,
     },
   ],
-});
+}]);
 
 createRoot(document.getElementById("root")).render(
-  <RouterProvider router={router}></RouterProvider>
+  <RouterProvider router={router}>
+
+  </RouterProvider>
 );

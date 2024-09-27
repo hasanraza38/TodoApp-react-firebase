@@ -1,8 +1,12 @@
 import React from 'react'
+import Nav from '../component/Nav'
 
 function Register() {
   return (
-    <div>Register</div>
+<>
+<Nav/>
+<h1>Register</h1>
+</>
   )
 }
 
